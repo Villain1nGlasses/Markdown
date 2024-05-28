@@ -1,20 +1,14 @@
 var markdown = markdown || (() => {
 
 	const version = '1.0.10';
-
-	// const lastUpdate = 1578236090;
 	
 	const lastUpdate = 1716580335;
 
 	const script_name = 'Markdown';	
-	// const today = Date.now();
-	// sendChat(script_name, today.toString());
 
 	const checkInstall = () => {
 		log('-=> markdown v'+version+' <=-  ['+(new Date(lastUpdate*1000))+']');
 	};
-	
-	// sendChat(script_name, '-=> markdown v'+version+' <=-  ['+(new Date(lastUpdate*1000))+']');
 
 	var MDA = [];
 
